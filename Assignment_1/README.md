@@ -1,5 +1,5 @@
 # Canvas Discussion Assignment 1
 
 <ul>
-  <li> <a href="https://github.com/visualizedata/ml/blob/master/final_assignment_1/moviereviews_first_full_iteration.ipynb">moviereviews_first_full_iteration.ipynb</a>
+  <li> <a href="https://github.com/visualizedata/ml/tree/master/final_assignment_1">The starter code</a>
 </ul>
