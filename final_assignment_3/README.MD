@@ -1,8 +1,21 @@
 <h1> Machine Learning Assignment 3 </h1> 
 
-<a href="https://github.com/visualizedata/ml/tree/master/final_assignment_3/option_3">Option 3</a>
+<h2><a href="https://github.com/visualizedata/ml/tree/master/final_assignment_3/option_3">Option 3</a></h2>
 <p>Work with data on food contamination to cluster incident descriptions into broader categories.<p>
   
+<h2>The specific differences in my modified code</h2>
+<h4>CountVectorizer
+<ul>
+  <li><b>stop_words='english'</b></li>
+  <li><b>max_df=0.9</b></li>
+</ul>
+
+<h4>KMeans
+  <ul>
+  <li><b>clusterVal</b></li>
+  <li><b>n_clusters=i</b></li>
+</ul>
+
 <h2> Plots </h2> 
 
 <h4>Cluster 15</h4>
