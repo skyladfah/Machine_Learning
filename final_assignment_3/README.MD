@@ -4,11 +4,11 @@
 <p>Work with data on food contamination to cluster incident descriptions into broader categories.<p>
   
 <h2>The specific differences in my modified code</h2>
-<h4>CountVectorizer
+I added two parameters to the CountVectorizer object:
 <ul>
-  <li><b>stop_words='english'</b></li>
-  <li><b>max_df=0.9</b></li>
-</ul>
+  <li>stop_words='english': To exclude common English stop words, such as "a", "an", "the", "in", "on", "at", etc, as these stop words are not informative and can be safely ignored without affecting the result.</li>
+  <li>max_df=0.9: to filter out words that are too common and not informative. I set max_df to 0.9 so that if particular words appear in <b>more than 90%</b> of the documents, they will be excluded from the vocabulary list, since they are likely to be too common and uninformative. In fact, words that appear in <b>fewer than 90%</b> of the documents will be retained in the vocabulary list, as they are more likely to be informative and distinctive.
+
 
 <h4>KMeans
   <ul>
