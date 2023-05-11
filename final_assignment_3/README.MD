@@ -39,7 +39,7 @@ I added two parameters to the CountVectorizer object:
 ![image](https://github.com/skyladfah/Machine_Learning/blob/main/final_assignment_3/cluster%2055.png)
 
 <h2>Conclusion</h2>
-<p>When I used n=15, a clear elbow is visible around 3 clusters. However, in the output combined like (give examples from the output box) are categorizing unusually combination. Using greater value of n at 35,45 and 55; it is observed that the graph seems to be flattering around 25 and the output are categorized in a more reasonable manner</p>    
+<p>When I used n=15, a clear elbow is visible around 3 clusters. However, in the output combined are categorizing unusually combination. Using greater value of n at 35,45 and 55; it is observed that the graph seems to be flattering around 25 and the output are categorized in a more reasonable manner</p>    
 
 ![image](https://github.com/skyladfah/Machine_Learning/blob/main/final_assignment_3/conclusion.png)
 
